@@ -1,0 +1,7 @@
+print("O programa pede 2 números inteiros e um número real e mostra: \n1 - O produto do dobro do primeiro com metade do segundo; \n2 - A soma do triplo do primeiro com o terceiro; \n3 - O terceiro elevado ao cubo.")
+numero_inteiro1 = int(input("Digite o primeiro número inteiro: "))
+numero_inteiro2 = int(input("Digite o segundo número inteiro: "))
+numero_real = float(input("Digite o número real: "))
+print(f"O produto do dobro do primeiro com metade do segundo é: {(numero_inteiro1 * 2) + (numero_inteiro2 / 2)}")
+print(f"A soma do triplo do primeiro com o terceiro é: {(numero_inteiro1 * 3) + numero_real}")
+print(f"O terceiro elevado ao cubo: {numero_real**3}")
